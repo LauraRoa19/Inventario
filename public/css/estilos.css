@@ -1,0 +1,53 @@
+h1,h2,h3{
+  margin-top: 5%;
+}
+
+img {
+    vertical-align: baseline !important;
+    border-style: none;
+}
+
+#logoText, h1{
+  font-family: 'Acme', sans-serif;
+}
+
+#logoText{
+  font-size: 30px;
+}
+
+.bg-light{
+  background-color: #AED6F1 !important;
+}
+
+.bg-container{
+  border-width: 0px 2px 2px 2px;
+  border-style: solid;
+  border-color: #eee;
+  box-shadow: 4px 4px 5px rgba(200, 200, 200, 0.5);
+}
+
+.pd-btn{
+  padding: 2px 2px 2px 7px;
+}
+
+.inp{
+  background-color: transparent !important;
+  display: block;
+  width: 80%;
+  height: calc(1.5em + .75rem + 2px);
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 0px;
+  border-radius: .25rem;
+  padding-left: 15px;
+}
+
+.inp-show{
+  background-color: #fff !important;
+  border-bottom: 2px solid #000;
+}
+
+#btnUpdate, #btnCancel{
+  display: none;
+}
